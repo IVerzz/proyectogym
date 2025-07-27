@@ -1,40 +1,15 @@
-# Proyecto base - CRUD Productos
+# Gestión de Productos de GYM
 
-Proyecto base para aplicar conceptos de Ingeniería de Software II.  
-Esta aplicación CRUD permite gestionar productos utilizando **HTML, CSS y JavaScript puro**, con almacenamiento en **localStorage**.
+## Cómo funciona
 
-Está diseñada como punto de partida para trabajar temas como diseño de software, patrones, control de versiones (Git), métricas de calidad y gestión de proyectos.
+Esta aplicación permite gestionar productos de un gimnasio (GYM) desde el navegador.
 
----
+- Abre `index.html` en cualquier navegador.
+- Usa el formulario para agregar productos.
+- Los productos se muestran en una tabla debajo.
+- Puedes editar o eliminar productos.
+- Toda la información se guarda automáticamente usando localStorage (no necesita base de datos).
 
-## 🧠 Objetivos de aprendizaje
-
-Este proyecto servirá como base para aplicar los conceptos del módulo de **Ingeniería de Software II**, tales como:
-
-- **Diseño de software**: aplicación de patrones, separación de responsabilidades, arquitectura (por ejemplo, estructura tipo MVC).
-- **Gestión de configuración**: uso de control de versiones (Git) para registrar cambios, mejoras y colaboraciones.
-- **Gestión de proyectos y métricas**: planificación de tareas, estimación de tiempo y análisis de calidad a través de métricas simples.
+No se necesita conexión a internet ni servidor.
 
 ---
-
-## ⚙️ Cómo usarlo
-
-1. Descarga o clona el repositorio.
-2. Abre `index.html` en tu navegador.
-3. Usa el formulario para agregar productos.
-4. Edita o elimina productos desde la tabla.
-5. Todo se guarda automáticamente en tu navegador (localStorage).
-
----
-
-## 💡 Recomendaciones para estudiantes
-
-- Guarda versiones usando Git o GitHub.
-- Documenta tus mejoras o experimentos.
-- Piensa cómo podrías separar mejor las capas del sistema.
-- ¡Modifícalo, extiéndelo o intégralo con una API si quieres retarte más!
-
----
-
-> Proyecto educativo para fines de formación en Ingeniería de Software.  
-> Libre para adaptar, mejorar y compartir.
