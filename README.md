@@ -1,15 +1,30 @@
-# Gestión de Productos de GYM
+# Gestión de Productos de GYM 🏋️‍♀️
 
-## Cómo funciona
-
-Esta aplicación permite gestionar productos de un gimnasio (GYM) desde el navegador.
-
-- Abre `index.html` en cualquier navegador.
-- Usa el formulario para agregar productos.
-- Los productos se muestran en una tabla debajo.
-- Puedes editar o eliminar productos.
-- Toda la información se guarda automáticamente usando localStorage (no necesita base de datos).
-
-No se necesita conexión a internet ni servidor.
+Este proyecto es una aplicación CRUD que permite gestionar productos de un gimnasio como suplementos, accesorios, equipos de entrenamiento, etc. Está desarrollado con **HTML, CSS y JavaScript**, y utiliza el **almacenamiento local del navegador (localStorage)** para guardar los datos sin necesidad de servidor o base de datos.
 
 ---
+
+## ✅ Características principales
+
+- Agregar productos (nombre, precio y categoría)
+- Mostrar productos en una tabla dinámica
+- Editar productos existentes
+- Eliminar productos de la lista
+- Interfaz moderna y responsiva (adaptada para móviles)
+- Almacenamiento automático en `localStorage`
+- No necesita conexión a internet ni instalación
+
+---
+
+## ⚙️ Cómo funciona
+
+1. Abre el archivo `index.html` en cualquier navegador.
+2. Usa el formulario para registrar productos del GYM.
+3. Los productos se mostrarán en una tabla con botones de editar y eliminar.
+4. Todas las acciones (agregar, editar, eliminar) se guardan automáticamente.
+5. Si recargas la página, los productos siguen estando disponibles (gracias a `localStorage`).
+
+---
+
+## 🧩 Estructura del proyecto
+
