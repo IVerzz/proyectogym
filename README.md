@@ -37,7 +37,7 @@ Este proyecto es una aplicación CRUD que permite gestionar productos de un gimn
 
 ## 🎓 Autor
 
-Este proyecto fue desarrollado por:
+Este proyecto esta desarrollado por:
 
 - Jesus David
 - Angel 
