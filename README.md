@@ -10,7 +10,7 @@ Este proyecto es una aplicación CRUD que permite gestionar productos de un gimn
 - Mostrar productos en una tabla dinámica
 - Editar productos existentes
 - Eliminar productos de la lista
-- Interfaz moderna y responsiva (adaptada para móviles)
+- Interfaz moderna y responsiva
 - Almacenamiento automático en `localStorage`
 - No necesita conexión a internet ni instalación
 
@@ -26,5 +26,23 @@ Este proyecto es una aplicación CRUD que permite gestionar productos de un gimn
 
 ---
 
-## 🧩 Estructura del proyecto
+## 🛠 Tecnologías utilizadas
+
+- **HTML5** para la estructura
+- **CSS3** para el estilo responsivo
+- **JavaScript (ES6)** para la lógica de productos
+- **localStorage** para almacenamiento de datos
+
+---
+
+## 🎓 Autor
+
+Este proyecto fue desarrollado por:
+
+- Jesus David
+- Angel 
+
+---
+
+
 
