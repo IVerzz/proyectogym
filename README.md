@@ -1,27 +1,29 @@
+🆕 Cambios Recientes
+Este proyecto antes se llamaba GestiónGym y ahora se ha actualizado a Gestión Reservas Gym, con mejoras enfocadas en la administración y control de reservas dentro del gimnasio.
 
-## Objetivos de aprendizaje
+🔄 Cambios Principales
+Renombrado del proyecto en todos los archivos y referencias internas.
 
-Este proyecto servirá como base para aplicar los conceptos del módulo de **Ingeniería de Software II**, tales como:
+Nuevo enfoque: gestión de reservas de clases y espacios.
 
-- **Diseño de software**: aplicación de patrones, separación de responsabilidades, arquitectura (por ejemplo, estructura tipo MVC).
-- **Gestión de configuración**: uso de control de versiones (Git) para registrar cambios, mejoras y colaboraciones.
-- **Gestión de proyectos y métricas**: planificación de tareas, estimación de tiempo, y análisis de calidad a través de métricas simples.
+Campos añadidos para:
 
-## Cómo usarlo
+Selección de fecha y hora.
 
-1. Descarga o clona el repositorio.
-2. Abre `index.html` en tu navegador.
-3. Usa el formulario para agregar productos.
-4. Edita o elimina productos desde la tabla.
-5. Todo se guarda automáticamente en tu navegador.
+Tipo de clase o actividad.
 
-## Recomendaciones para estudiantes
+Cupos máximos por actividad.
 
-- Guarda versiones usando Git o GitHub.
-- Documenta tus mejoras o experimentos.
-- Piensa cómo podrías separar mejor las capas del sistema.
-- ¡Modifícalo, extiéndelo o intégralo con una API si quieres retarte más!
+Ajuste de textos y menús en la interfaz de usuario para reflejar el nuevo enfoque.
 
----
+Base de datos adaptada para registrar:
 
-> Proyecto educativo para fines de formación en Ingeniería de Software. Libre para adaptar, mejorar y compartir.
+ID de reserva.
+
+Usuario asociado.
+
+Actividad reservada.
+
+Estado de la reserva.
+
+Documentación y comentarios en el código actualizados.
