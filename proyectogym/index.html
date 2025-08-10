@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRUD Productos</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/logo.png" alt="Logo" class="logo">
+      <h1>Gestión de Productos de GYM</h1>
+    </header>
+
+    <section class="form-section">
+      <h2>Agregar Producto</h2>
+      <form id="product-form">
+        <input type="text" id="nombre" placeholder="Nombre del producto" required />
+        <input type="number" id="precio" placeholder="Precio" step="0.01" required />
+        <input type="text" id="categoria" placeholder="Categoría" required />
+        <button type="submit" class="btn">Agregar</button>
+      </form>
+    </section>
+
+    <section class="table-section">
+      <h2>Lista de Productos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Categoría</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="product-list">
+          <!-- Ejemplo de producto -->
+          <tr>
+            <td>Producto de ejemplo</td>
+            <td>$10.00</td>
+            <td>General</td>
+            <td>
+              <button class="edit">Editar</button>
+              <button class="delete">Eliminar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
