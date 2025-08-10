@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Reservas - Gimnasio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🏋️ Gestión de Reservas - Gimnasio</h1>
+    </header>
+
+    <main>
+        <!-- Formulario -->
+        <section class="form-section">
+            <h2 id="form-title">Crear Reserva</h2>
+            <form id="product-form">
+                <input type="hidden" id="product-id">
+
+                <label for="name">👤 Nombre del Cliente:</label>
+                <input type="text" id="name" placeholder="Ej. Juan Pérez" required>
+
+                <label for="category">🏋️ Actividad:</label>
+                <input type="text" id="category" placeholder="Ej. Spinning" required>
+
+                <label for="price">📅 Fecha y Hora:</label>
+                <input type="datetime-local" id="price" required>
+
+                <div class="form-buttons">
+                    <button type="submit" class="btn save-btn">💾 Guardar</button>
+                    <button type="button" class="btn cancel-btn" id="cancel-edit" style="display:none;">❌ Cancelar</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Lista de reservas -->
+        <section class="list-section">
+            <h2>📋 Lista de Reservas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Actividad</th>
+                        <th>Fecha/Hora</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="product-list">
+                    <!-- Reservas aquí -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Toast -->
+    <div id="toast"></div>
+
+    <script src="storage.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
